@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+>>>>>>> ba0247ea10ca6df600a45331cda953cd2933b39b
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -16,8 +22,15 @@
 
 # Go workspace file
 go.work
+<<<<<<< HEAD
 main.go
 
 # IDE
 .idea
 .vscode
+=======
+go.work.sum
+
+# env file
+.env
+>>>>>>> ba0247ea10ca6df600a45331cda953cd2933b39b
